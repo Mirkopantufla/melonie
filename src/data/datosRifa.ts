@@ -33,17 +33,17 @@ export const premiosMelonie: Premios[] = [
     },{
         premio: "Six pack cervezas",
         cantidad: 1,
-        descripcion: "Six pack de cervezas para pasar la se",
+        descripcion: "Six pack de cervezas pa' pasar la sed de este pinche calor",
         donador: "Sujey"
     },{
         premio: "Frazadas de 2 plazas",
         cantidad: 2,
         descripcion: "Frazadas hechas en la legendaria fabrica Mincha Sur",
-        donador: ""
+        donador: "Mincha Sur"
     },{
         premio: "Freestyle lateral o cintillo de trenzas",
         cantidad: 1,
-        descripcion: "",
+        descripcion: "Las trenzas mas sarpadas de lohermida",
         donador: "Sujey"
     },{
         premio: "Kuchen familiar de Nuez",
@@ -69,7 +69,7 @@ export const premiosMelonie: Premios[] = [
         premio: "Sesion de masoterapia",
         cantidad: 1,
         descripcion: "Una sesion de 40 minutos de masajes descontracturantes o relajantes, con o sin ventosas",
-        donador: "Francisca"
+        donador: "Francisca Letelier"
     },{
         premio: "Conjunto de Aros y Cadena",
         cantidad: 1,

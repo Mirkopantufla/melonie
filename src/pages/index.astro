@@ -1,43 +1,93 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import { numerosTabla } from '../data/datosRifa.ts'
-
+import Layout from "../layouts/Layout.astro";
+import { numerosTabla, premiosMelonie } from "../data/datosRifa.ts";
 ---
 
 <Layout title="Welcome to Astro.">
-	<main>
-		<h1>Rifa a beneficio de melonie</h1>
-
-			<div class="grid grid-cols-10 gap-1 text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
-					{
-						numerosTabla.map((numero) => {
-							return (
-							<span 
-								class={`h-10 col-span-1 border border-black flex justify-center items-center ${numero.comprado ? "bg-red-300" : "bg-emerald-300"}`}>
-								{numero.numero}
+  <main>
+    <h1 class="text-3xl lg:text-5xl text-center">Rifa a beneficio de melonie</h1>
+	<div class="flex justify-center my-5">
+		<img class="h-w-96 w-96 rounded-full border border-white p-2" src="/melonie.jpg" alt="">
+	</div>
+	<p class="text-center my-5 text-2xl">Valor del numero $2.000</p>
+    <div
+      class="lg:w-5/6 grid grid-cols-10 grid-rows-auto gap-1 m-auto px-5"
+    >
+      {
+        numerosTabla.map((numero) => {
+          return (
+            <a
+              href={
+                numero.comprador.instagram != ""
+                  ? `https://www.instagram.com/${numero.comprador.instagram}/`
+                  : "#"
+              }
+			  class="col-span-2 md:col-span-2 lg:col-span-1"
+              target={`${numero.comprador.instagram != "" ? "_blank" : ""}`}
+            >
+              <span
+                id={`numero-${numero.numero}`}
+                class={`h-20 border border-black flex justify-center items-center text-center font-bold text-black rounded-xl text-2xl ${numero.comprado ? "bg-red-300 hover:text-sm" : "bg-emerald-300"}`}
+              >
+                {numero.numero}
+              </span>
+            </a>
+          );
+        })
+      }
+    </div>
+		<div class="flex flex-col justify-center items-center my-5">
+			<h2 class="text-3xl lg:text-5xl text-center my-5">Premios</h2>
+			<div class="grid grid-cols-12">
+				{
+					premiosMelonie.map((premio) => {
+						return(
+						<div class="col-span-4 text-center border border-white p-3 m-2 rounded-xl">
+							<h3 class="text-black font-bold bg-white">{premio.premio}{premio.cantidad > 1 ? ` * ${premio.cantidad}`:""}</h3>
+							<p class="w-4/5 text-md h-44 flex justify-center items-center m-auto font-light">{premio.descripcion}</p>
+							<span class="flex justify-center items-center">Gracias a {premio.donador} 
+								<img class="ms-2 h-6" src="/like.png" alt=""/>
 							</span>
-							)
-						})
-					}
+						</div>
+						)
+					})
+				}
 			</div>
-	</main>
+			
+	</div>
+
+  </main>
 </Layout>
 
 <style>
-	main {
-		margin: auto;
-		padding: 1rem;
-		width: 800px;
-		max-width: calc(100% - 2rem);
-		color: white;
-		font-size: 20px;
-		line-height: 1.6;
-	}
-	h1 {
-		font-size: 4rem;
-		font-weight: 700;
-		line-height: 1;
-		text-align: center;
-		margin-bottom: 1em;
-	}
+  main {
+    margin: auto;
+    padding: 1rem;
+    width: 100%;
+    max-width: calc(100% - 2rem);
+    color: white;
+    font-size: 20px;
+    line-height: 1.6;
+  }
 </style>
+
+<script>
+  import { numerosTabla } from "../data/datosRifa";
+
+  const numeros = document.querySelectorAll("span");
+
+  numeros.forEach((numero, index) => {
+    if (numerosTabla[index].comprado) {
+
+      numero.addEventListener("mouseenter", () => {
+        let textoCuadro = `${numerosTabla[index].comprador.nombre}<br>${numerosTabla[index].comprador.instagram}`;
+        numero.innerHTML = textoCuadro;
+      });
+
+      numero.addEventListener("mouseout", () => {
+        numero.innerHTML = numerosTabla[index].numero.toString();
+      });
+
+    }
+  });
+</script>

@@ -2,10 +2,10 @@
     {
         "numero": 1,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Mirko Pasten",
+            "instagram": "mikish17"
         },
-        "comprado": false,
+        "comprado": true,
         "ganador": false
     },
     {
