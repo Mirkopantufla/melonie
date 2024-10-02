@@ -92,10 +92,10 @@
     {
         "numero": 11,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Bastian Manquelipe",
+            "instagram": "monkeyb0ys"
         },
-        "comprado": false,
+        "comprado": true,
         "ganador": false
     },
     {
@@ -110,10 +110,10 @@
     {
         "numero": 13,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Alexa Mendez",
+            "instagram": "sonder.yep"
         },
-        "comprado": false,
+        "comprado": true,
         "ganador": false
     },
     {
@@ -443,10 +443,10 @@
     {
         "numero": 50,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Bastian Manquelipe",
+            "instagram": "monkeyb0ys"
         },
-        "comprado": false,
+        "comprado": true,
         "ganador": false
     },
     {
@@ -533,10 +533,10 @@
     {
         "numero": 60,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Alexa Mendez",
+            "instagram": "sonder.yep"
         },
-        "comprado": false,
+        "comprado": true,
         "ganador": false
     },
     {
