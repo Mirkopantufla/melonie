@@ -5,14 +5,19 @@ import { numerosTabla, premiosMelonie } from "../data/datosRifa.ts";
 
 <Layout title="Rifa melonie">
   <main>
-    <h1 class="text-3xl lg:text-5xl text-center">Rifa a beneficio de melonie</h1>
-	<div class="flex justify-center my-5">
-		<img class="h-w-96 w-96 rounded-full border border-white p-2" src="/melonie.jpg" alt="">
-	</div>
-	<p class="text-center my-5 text-2xl">Valor del número $2.000</p>
-    <div
-      class="lg:w-5/6 grid grid-cols-10 grid-rows-auto gap-1 m-auto px-5"
-    >
+    <h1 class="text-3xl lg:text-5xl text-center">
+      Rifa a beneficio de melonie
+    </h1>
+    <div class="flex justify-center my-5">
+      <img
+        class="h-w-96 w-96 rounded-full border border-white p-2"
+        src="/melonie.jpg"
+        alt=""
+      />
+    </div>
+    <p class="text-center my-5 text-2xl">Valor del número $2.000</p>
+    <p class="text-center my-5 text-2xl">01-10-2024 - por definir sorteo</p>
+    <div class="lg:w-5/6 grid grid-cols-10 grid-rows-auto gap-1 m-auto px-5">
       {
         numerosTabla.map((numero) => {
           return (
@@ -22,7 +27,7 @@ import { numerosTabla, premiosMelonie } from "../data/datosRifa.ts";
                   ? `https://www.instagram.com/${numero.comprador.instagram}/`
                   : "#"
               }
-			  class="col-span-2 md:col-span-2 lg:col-span-1"
+              class="col-span-2 md:col-span-2 lg:col-span-1"
               target={`${numero.comprador.instagram != "" ? "_blank" : ""}`}
             >
               <span
@@ -36,27 +41,31 @@ import { numerosTabla, premiosMelonie } from "../data/datosRifa.ts";
         })
       }
     </div>
-		<div class="flex flex-col justify-center items-center my-5">
-			<h2 class="text-3xl lg:text-5xl text-center my-5">Premios</h2>
-			<div class="grid grid-cols-12">
-				{
-					premiosMelonie.map((premio) => {
-						return(
-						<div class="col-span-12 md:col-span-6 lg:col-span-4 2xl:col-span-3 text-center border border-white p-3 m-2 rounded-xl">
-							<h3 class="text-black font-bold bg-white">{premio.premio}{premio.cantidad > 1 ? ` * ${premio.cantidad}`:""}</h3>
-							<p class="w-4/5 text-md h-60 sm:h-44 flex justify-center items-center m-auto font-light">{premio.descripcion}</p>
-							<span class="flex justify-center items-center">
-								Gracias {premio.donador}
-								<img class="ms-2 h-7 pt-1" src="/like.png" alt=""/>
-							</span>
-						</div>
-						)
-					})
-				}
-			</div>
-			
-	</div>
-
+    <p class="text-center my-5 text-2xl">En caso de completar los números antes del sorteo, si aparecen más premios, agregaré más números :)</p>
+    <div class="flex flex-col justify-center items-center my-5">
+      <h2 class="text-3xl lg:text-5xl text-center my-5">Premios</h2>
+      <div class="grid grid-cols-12">
+        {
+          premiosMelonie.map((premio) => {
+            return (
+              <div class="col-span-12 md:col-span-6 lg:col-span-4 2xl:col-span-3 text-center border border-white p-3 m-2 rounded-xl">
+                <h3 class="text-black font-bold bg-white">
+                  {premio.premio}
+                  {premio.cantidad > 1 ? ` * ${premio.cantidad}` : ""}
+                </h3>
+                <p class="w-4/5 text-md h-60 sm:h-44 flex justify-center items-center m-auto font-light">
+                  {premio.descripcion}
+                </p>
+                <span class="flex justify-center items-center">
+                  Gracias {premio.donador}
+                  <img class="ms-2 h-7 pt-1" src="/like.png" alt="" />
+                </span>
+              </div>
+            );
+          })
+        }
+      </div>
+    </div>
   </main>
 </Layout>
 
@@ -79,7 +88,6 @@ import { numerosTabla, premiosMelonie } from "../data/datosRifa.ts";
 
   numeros.forEach((numero, index) => {
     if (numerosTabla[index].comprado) {
-
       numero.addEventListener("mouseenter", () => {
         let textoCuadro = `${numerosTabla[index].comprador.nombre}<br>${numerosTabla[index].comprador.instagram}`;
         numero.innerHTML = textoCuadro;
@@ -88,7 +96,6 @@ import { numerosTabla, premiosMelonie } from "../data/datosRifa.ts";
       numero.addEventListener("mouseout", () => {
         numero.innerHTML = numerosTabla[index].numero.toString();
       });
-
     }
   });
 </script>
