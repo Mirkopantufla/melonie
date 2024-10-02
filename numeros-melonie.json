@@ -38,10 +38,10 @@
     {
         "numero": 5,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Karem Robles",
+            "instagram": "roblesmartorell"
         },
-        "comprado": false,
+        "comprado": true,
         "ganador": false
     },
     {
@@ -65,10 +65,10 @@
     {
         "numero": 8,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Karem Robles",
+            "instagram": "roblesmartorell"
         },
-        "comprado": false,
+        "comprado": true,
         "ganador": false
     },
     {
@@ -236,10 +236,10 @@
     {
         "numero": 27,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Karem Robles",
+            "instagram": "roblesmartorell"
         },
-        "comprado": false,
+        "comprado": true,
         "ganador": false
     },
     {
@@ -434,10 +434,10 @@
     {
         "numero": 49,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Karem Robles",
+            "instagram": "roblesmartorell"
         },
-        "comprado": false,
+        "comprado": true,
         "ganador": false
     },
     {
@@ -488,10 +488,10 @@
     {
         "numero": 55,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Karem Robles",
+            "instagram": "roblesmartorell"
         },
-        "comprado": false,
+        "comprado": true,
         "ganador": false
     },
     {
