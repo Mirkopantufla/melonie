@@ -43,7 +43,7 @@ export const premiosMelonie: Premios[] = [
     },{
         premio: "Freestyle lateral o cintillo de trenzas",
         cantidad: 1,
-        descripcion: "Las trenzas mas sarpadas de lohermida",
+        descripcion: "Las trenzas mas sarpadas de lo hermida",
         donador: "Sujey"
     },{
         premio: "Kuchen familiar de Nuez",
@@ -75,6 +75,11 @@ export const premiosMelonie: Premios[] = [
         cantidad: 1,
         descripcion: "Conjunto de aros y cadena de plata",
         donador: "Macarena"
+    },{
+        premio: "Docena de donas",
+        cantidad: 1,
+        descripcion: "Ricas donas donadas :v",
+        donador: "Jeanmeyli"
     }
 ]
 

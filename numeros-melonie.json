@@ -47,10 +47,10 @@
     {
         "numero": 6,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Nena Painevilu",
+            "instagram": "nenipv"
         },
-        "comprado": false,
+        "comprado": true,
         "ganador": false
     },
     {
@@ -128,10 +128,10 @@
     {
         "numero": 15,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Nena Painevilu",
+            "instagram": "nenipv"
         },
-        "comprado": false,
+        "comprado": true,
         "ganador": false
     },
     {
@@ -146,10 +146,10 @@
     {
         "numero": 17,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Nena Painevilu",
+            "instagram": "nenipv"
         },
-        "comprado": false,
+        "comprado": true,
         "ganador": false
     },
     {
@@ -164,10 +164,10 @@
     {
         "numero": 19,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Nena Painevilu",
+            "instagram": "nenipv"
         },
-        "comprado": false,
+        "comprado": true,
         "ganador": false
     },
     {
