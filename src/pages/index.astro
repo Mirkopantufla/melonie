@@ -44,7 +44,7 @@ import { numerosTabla, premiosMelonie } from "../data/datosRifa.ts";
 						return(
 						<div class="col-span-12 md:col-span-6 lg:col-span-4 2xl:col-span-3 text-center border border-white p-3 m-2 rounded-xl">
 							<h3 class="text-black font-bold bg-white">{premio.premio}{premio.cantidad > 1 ? ` * ${premio.cantidad}`:""}</h3>
-							<p class="w-4/5 text-md h-44 flex justify-center items-center m-auto font-light">{premio.descripcion}</p>
+							<p class="w-4/5 text-md h-60 sm:h-44 flex justify-center items-center m-auto font-light">{premio.descripcion}</p>
 							<span class="flex justify-center items-center">
 								Gracias {premio.donador}
 								<img class="ms-2 h-7 pt-1" src="/like.png" alt=""/>
