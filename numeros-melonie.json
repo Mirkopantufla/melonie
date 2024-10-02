@@ -74,10 +74,10 @@
     {
         "numero": 9,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Kime Traipe",
+            "instagram": "fvreymate"
         },
-        "comprado": false,
+        "comprado": true,
         "ganador": false
     },
     {
