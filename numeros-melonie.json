@@ -2,10 +2,10 @@
     {
         "numero": 1,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Ximena Carcamo",
+            "instagram": "ximenacarcamonunez"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -20,10 +20,10 @@
     {
         "numero": 3,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Ximena Carcamo",
+            "instagram": "ximenacarcamonunez"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -56,10 +56,10 @@
     {
         "numero": 7,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Ximena Carcamo",
+            "instagram": "ximenacarcamonunez"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -83,10 +83,10 @@
     {
         "numero": 10,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Ximena Carcamo",
+            "instagram": "ximenacarcamonunez"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -200,10 +200,10 @@
     {
         "numero": 23,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Ximena Carcamo",
+            "instagram": "ximenacarcamonunez"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
