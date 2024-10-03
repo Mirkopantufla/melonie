@@ -2,7 +2,7 @@
 import Layout from "../layouts/Layout.astro";
 import TablaNumeros from "@components/TablaNumeros.astro";
 import PremiosMelonie from '@components/PremiosMelonie.astro'
-
+import InfoAccordion from "@components/InfoAccordion.astro";
 ---
 
 <Layout title="Rifa melonie">
@@ -21,14 +21,29 @@ import PremiosMelonie from '@components/PremiosMelonie.astro'
       <p class="text-center text-2xl">Valor del número $2.000</p>
       <p class="text-center text-2xl">01-10-2024 - por definir sorteo</p>
     </div>
+    <InfoAccordion/>
     <TablaNumeros/>
     <PremiosMelonie/>
   </main>
+  <footer class="h-32 mb-4">
+    <div class="bg-white-transparent rounded-lg w-4/5 p-5 mx-auto">
+      <div class="flex flex-col items-center w-auto">
+        <p class="text-2xl">Te amo melonie, y gracias a todos por comprar numeritos</p>
+        <img class="ms-2 pt-1" src="like.png" alt="">
+      </div>
+      <p class="text-center w-auto m-auto">by RubikApps / mikis</p>
+    </div>
+      
+  </footer>
 </Layout>
 
 <style>
-  main {
+  main, footer {
     color: white;
+  }
+
+  .bg-white-transparent {
+    background-color: rgba(255, 255, 255, 0.3);
   }
 </style>
 
