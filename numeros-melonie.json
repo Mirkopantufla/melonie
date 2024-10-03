@@ -335,10 +335,10 @@
     {
         "numero": 38,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Francisca Reyes",
+            "instagram": "fran_tanitane"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -686,10 +686,10 @@
     {
         "numero": 77,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Francisca Reyes",
+            "instagram": "fran_tanitane"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -767,10 +767,10 @@
     {
         "numero": 86,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Francisca Reyes",
+            "instagram": "fran_tanitane"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
