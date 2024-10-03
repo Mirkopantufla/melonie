@@ -308,10 +308,10 @@
     {
         "numero": 35,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Carlos Boye",
+            "instagram": "cwlrso"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -1028,10 +1028,10 @@
     {
         "numero": 115,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Carlos Boye",
+            "instagram": "cwlrso"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
