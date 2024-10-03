@@ -29,10 +29,10 @@
     {
         "numero": 4,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Sebastian Pasten",
+            "instagram": "_chevipl"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -839,10 +839,10 @@
     {
         "numero": 94,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Sebastian Pasten",
+            "instagram": "_chevipl"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -1514,10 +1514,10 @@
     {
         "numero": 169,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Cecilia Lorca",
+            "instagram": "cecilialorcamora"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
