@@ -785,10 +785,10 @@
     {
         "numero": 88,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Eduardo Perret",
+            "instagram": "eduardoperretporma"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -1775,28 +1775,28 @@
     {
         "numero": 198,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Eduardo Perret",
+            "instagram": "eduardoperretporma"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
         "numero": 199,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Eduardo Perret",
+            "instagram": "eduardoperretporma"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
         "numero": 200,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Eduardo Perret",
+            "instagram": "eduardoperretporma"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     }
 ]
