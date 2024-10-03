@@ -1,0 +1,41 @@
+---
+import { numerosTabla } from "../data/datosRifa.ts";
+---
+
+<div class="flex justify-evenly text-xl my-5">
+  <div class="flex items-center border rounded-lg border-emerald-300 p-1 px-3">
+    <span class="h-4 w-4 bg-emerald-300 inline-block me-2"></span>
+    <p>Libres</p>
+  </div>
+  <div class="flex items-center border rounded-lg border-red-300 p-1 px-3">
+    <span class="h-4 w-4 bg-red-300 inline-block me-2"></span>
+    <p>Comprados</p>
+  </div>
+</div>
+
+<div class="lg:w-5/6 grid grid-cols-10 grid-rows-auto gap-1 m-auto px-5">
+    {
+      numerosTabla.map((numero) => {
+        return (
+          <a
+            href={
+              numero.comprador.instagram != ""
+                ? `https://www.instagram.com/${numero.comprador.instagram}/`
+                : "#"
+            }
+            class="col-span-2 md:col-span-2 lg:col-span-1"
+            target={`${numero.comprador.instagram != "" ? "_blank" : ""}`}
+          >
+            <span
+              id={`numero-${numero.numero}`}
+              class={`bloque-numero h-20 border border-black flex justify-center items-center text-center font-bold text-black rounded-xl text-2xl ${numero.ocupado ? "bg-red-300 hover:text-sm" : "bg-emerald-300"}`}
+            >
+              {numero.numero}
+            </span>
+          </a>
+        );
+      })
+    }
+  </div>
+
+  <p class="text-center my-5 text-2xl">En caso de completar los números antes del sorteo, si aparecen más premios, agregaré más números :)</p>

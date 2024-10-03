@@ -5,7 +5,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -14,7 +14,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -23,7 +23,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -32,7 +32,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -41,7 +41,7 @@
             "nombre": "Karem Robles",
             "instagram": "roblesmartorell"
         },
-        "comprado": true,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -50,7 +50,7 @@
             "nombre": "Nena Painevilu",
             "instagram": "nenipv"
         },
-        "comprado": true,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -59,7 +59,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -68,16 +68,16 @@
             "nombre": "Karem Robles",
             "instagram": "roblesmartorell"
         },
-        "comprado": true,
+        "ocupado": true,
         "ganador": false
     },
     {
         "numero": 9,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Kime Traipe",
+            "instagram": "fvreymate"
         },
-        "comprado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -86,16 +86,16 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
         "numero": 11,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Bastian Manquelipe",
+            "instagram": "monkeyb0ys"
         },
-        "comprado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -104,16 +104,16 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
         "numero": 13,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Alexa Mendez",
+            "instagram": "sonder.yep"
         },
-        "comprado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -122,7 +122,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -131,7 +131,7 @@
             "nombre": "Nena Painevilu",
             "instagram": "nenipv"
         },
-        "comprado": true,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -140,7 +140,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -149,7 +149,7 @@
             "nombre": "Nena Painevilu",
             "instagram": "nenipv"
         },
-        "comprado": true,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -158,7 +158,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -167,7 +167,7 @@
             "nombre": "Nena Painevilu",
             "instagram": "nenipv"
         },
-        "comprado": true,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -176,7 +176,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -185,7 +185,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -194,7 +194,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -203,7 +203,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -212,7 +212,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -221,7 +221,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -230,7 +230,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -239,7 +239,7 @@
             "nombre": "Karem Robles",
             "instagram": "roblesmartorell"
         },
-        "comprado": true,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -248,7 +248,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -257,7 +257,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -266,7 +266,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -275,7 +275,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -284,7 +284,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -293,7 +293,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -302,7 +302,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -311,7 +311,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -320,7 +320,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -329,7 +329,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -338,7 +338,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -347,7 +347,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -356,7 +356,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -365,7 +365,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -374,7 +374,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -383,7 +383,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -392,7 +392,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -401,7 +401,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -410,7 +410,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -419,7 +419,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -428,7 +428,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -437,16 +437,16 @@
             "nombre": "Karem Robles",
             "instagram": "roblesmartorell"
         },
-        "comprado": true,
+        "ocupado": true,
         "ganador": false
     },
     {
         "numero": 50,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Bastian Manquelipe",
+            "instagram": "monkeyb0ys"
         },
-        "comprado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -455,7 +455,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -464,7 +464,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -473,7 +473,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -482,7 +482,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -491,7 +491,7 @@
             "nombre": "Karem Robles",
             "instagram": "roblesmartorell"
         },
-        "comprado": true,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -500,7 +500,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -509,7 +509,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -518,7 +518,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -527,16 +527,16 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
         "numero": 60,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Alexa Mendez",
+            "instagram": "sonder.yep"
         },
-        "comprado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -545,7 +545,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -554,7 +554,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -563,7 +563,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -572,7 +572,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -581,7 +581,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -590,7 +590,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -599,7 +599,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -608,7 +608,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -617,7 +617,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -626,7 +626,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -635,7 +635,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -644,7 +644,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -653,7 +653,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -662,7 +662,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -671,7 +671,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -680,7 +680,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -689,7 +689,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -698,7 +698,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -707,7 +707,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -716,7 +716,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -725,7 +725,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -734,7 +734,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -743,7 +743,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -752,7 +752,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -761,7 +761,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -770,7 +770,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -779,7 +779,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -788,7 +788,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -797,7 +797,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -806,7 +806,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -815,7 +815,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -824,7 +824,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -833,7 +833,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -842,7 +842,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -851,7 +851,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -860,7 +860,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -869,7 +869,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -878,7 +878,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -887,7 +887,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -896,7 +896,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -905,7 +905,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -914,7 +914,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -923,7 +923,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -932,7 +932,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -941,7 +941,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -950,7 +950,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -959,7 +959,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -968,7 +968,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -977,7 +977,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -986,7 +986,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -995,7 +995,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1004,7 +1004,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1013,7 +1013,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1022,7 +1022,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1031,7 +1031,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1040,7 +1040,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1049,7 +1049,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1058,7 +1058,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1067,7 +1067,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1076,7 +1076,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1085,7 +1085,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1094,7 +1094,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1103,7 +1103,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1112,7 +1112,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1121,7 +1121,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1130,7 +1130,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1139,7 +1139,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1148,7 +1148,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1157,7 +1157,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1166,7 +1166,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1175,7 +1175,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1184,7 +1184,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1193,7 +1193,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1202,7 +1202,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1211,7 +1211,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1220,7 +1220,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1229,7 +1229,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1238,7 +1238,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1247,7 +1247,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1256,7 +1256,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1265,7 +1265,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1274,7 +1274,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1283,7 +1283,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1292,7 +1292,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1301,7 +1301,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1310,7 +1310,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1319,7 +1319,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1328,7 +1328,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1337,7 +1337,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1346,7 +1346,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1355,7 +1355,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1364,7 +1364,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1373,7 +1373,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1382,7 +1382,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1391,7 +1391,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1400,7 +1400,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1409,7 +1409,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1418,7 +1418,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1427,7 +1427,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1436,7 +1436,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1445,7 +1445,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1454,7 +1454,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1463,7 +1463,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1472,7 +1472,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1481,7 +1481,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1490,7 +1490,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1499,7 +1499,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1508,7 +1508,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1517,7 +1517,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1526,7 +1526,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1535,7 +1535,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1544,7 +1544,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1553,7 +1553,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1562,7 +1562,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1571,7 +1571,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1580,7 +1580,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1589,7 +1589,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1598,7 +1598,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1607,7 +1607,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1616,7 +1616,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1625,7 +1625,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1634,7 +1634,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1643,7 +1643,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1652,7 +1652,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1661,7 +1661,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1670,7 +1670,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1679,7 +1679,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1688,7 +1688,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1697,7 +1697,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1706,7 +1706,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1715,7 +1715,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1724,7 +1724,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1733,7 +1733,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1742,7 +1742,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1751,7 +1751,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1760,7 +1760,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1769,7 +1769,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1778,7 +1778,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1787,7 +1787,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     },
     {
@@ -1796,7 +1796,7 @@
             "nombre": "",
             "instagram": ""
         },
-        "comprado": false,
+        "ocupado": false,
         "ganador": false
     }
 ]

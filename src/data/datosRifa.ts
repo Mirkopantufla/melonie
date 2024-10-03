@@ -1,18 +1,18 @@
-import asdjson from '../../numeros-melonie.json'
+import numerosMelonie from '../../numeros-melonie.json'
 
-interface Comprador {
+export interface Comprador {
     nombre: string;
     instagram: string;
 }
 
-interface Numeros {
+export interface Numeros {
     numero: number;
     comprador: Comprador;
-    comprado: boolean;
+    ocupado: boolean;
     ganador: boolean;
 }
 
-interface Premios {
+export interface Premios {
     premio: string;
     cantidad: number;
     descripcion: string;
@@ -38,7 +38,7 @@ export const premiosMelonie: Premios[] = [
     },{
         premio: "Frazadas de 2 plazas",
         cantidad: 2,
-        descripcion: "Frazadas hechas en la legendaria fábrica Mincha Sur",
+        descripcion: "2 Premios de 1 frazada hecha en la legendaria fábrica Mincha Sur",
         donador: "Mincha Sur"
     },{
         premio: "Freestyle lateral o cintillo de trenzas",
@@ -83,4 +83,4 @@ export const premiosMelonie: Premios[] = [
     }
 ]
 
-export const numerosTabla: Numeros[] = asdjson;
+export const numerosTabla: Numeros[] = structuredClone(numerosMelonie);
