@@ -884,10 +884,10 @@
     {
         "numero": 99,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Jeshu",
+            "instagram": "araknidah"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
