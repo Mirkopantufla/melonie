@@ -209,10 +209,10 @@
     {
         "numero": 24,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Úrsula Ortiz",
+            "instagram": "ursulaortizmendicute"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
