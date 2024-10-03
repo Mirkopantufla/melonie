@@ -80,6 +80,16 @@ export const premiosMelonie: Premios[] = [
         cantidad: 1,
         descripcion: "Ricas donas donadas :v",
         donador: "Jeanmeyli"
+    },{
+        premio: "Juego de dos toallas Doral",
+        cantidad: 1,
+        descripcion: "Juego de 2 toallas de baño nuevas de color violeta",
+        donador: "Nena Painevilu"
+    },{
+        premio: "Set de 6 vasos nuevitos",
+        cantidad: 1,
+        descripcion: "Pack de 6 vasos krea de los tipicos pal juguito y sus copetes",
+        donador: "Nena Painevilu"
     }
 ]
 
