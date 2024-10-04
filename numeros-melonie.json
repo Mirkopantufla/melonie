@@ -137,10 +137,10 @@
     {
         "numero": 16,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Monica Painevilú",
+            "instagram": "monica.painevilu"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -155,10 +155,10 @@
     {
         "numero": 18,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Monica Painevilú",
+            "instagram": "monica.painevilu"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -326,10 +326,10 @@
     {
         "numero": 37,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Monica Painevilú",
+            "instagram": "monica.painevilu"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -578,10 +578,10 @@
     {
         "numero": 65,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Monica Painevilú",
+            "instagram": "monica.painevilu"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -803,10 +803,10 @@
     {
         "numero": 90,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Monica Painevilú",
+            "instagram": "monica.painevilu"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
