@@ -182,10 +182,10 @@
     {
         "numero": 21,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Miguel Marchant",
+            "instagram": "mimarchantt"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
