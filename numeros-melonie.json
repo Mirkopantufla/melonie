@@ -371,10 +371,10 @@
     {
         "numero": 42,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Miguel Marchant",
+            "instagram": "mimarchantt"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
