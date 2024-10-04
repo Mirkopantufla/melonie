@@ -461,10 +461,10 @@
     {
         "numero": 52,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Pedro Proaño",
+            "instagram": "recklessshadow"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -857,10 +857,10 @@
     {
         "numero": 96,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Pedro Proaño",
+            "instagram": "recklessshadow"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -1136,10 +1136,10 @@
     {
         "numero": 127,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Pedro Proaño",
+            "instagram": "recklessshadow"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
