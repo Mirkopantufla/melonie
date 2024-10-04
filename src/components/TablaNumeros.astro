@@ -1,15 +1,28 @@
 ---
 import { numerosTabla } from "../data/datosRifa.ts";
+
+let contadorOcupados: number = 0;
+let contadorLibres: number = 0;
+
+numerosTabla.forEach((numero) => {
+  if (numero.ocupado) {
+          contadorOcupados+=1
+        }else{
+          contadorLibres+=1
+        }
+})
 ---
 
 <div class="flex justify-evenly text-xl my-5">
   <div class="flex items-center border rounded-lg border-emerald-300 p-1 px-3">
-    <span class="h-4 w-4 bg-emerald-300 inline-block me-2"></span>
-    <p>Libres</p>
+    <span class="h-4 w-4 bg-emerald-300 inline-block"></span>
+    <p class="mx-2">Libres</p>
+    <span>{contadorLibres}</span>
   </div>
   <div class="flex items-center border rounded-lg border-red-300 p-1 px-3">
-    <span class="h-4 w-4 bg-red-300 inline-block me-2"></span>
-    <p>Comprados</p>
+    <span class="h-4 w-4 bg-red-300 inline-block"></span>
+    <p class="mx-2">Comprados</p>
+    <span>{contadorOcupados}</span>
   </div>
 </div>
 
