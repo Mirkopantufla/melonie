@@ -398,10 +398,10 @@
     {
         "numero": 45,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Rocio Pastén",
+            "instagram": "pasten.d.rocio"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -1631,10 +1631,10 @@
     {
         "numero": 182,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Rocio Pastén",
+            "instagram": "pasten.d.rocio"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
