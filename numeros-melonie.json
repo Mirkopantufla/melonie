@@ -11,10 +11,10 @@
     {
         "numero": 2,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Taten Cortes",
+            "instagram": "teiten"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -191,10 +191,10 @@
     {
         "numero": 22,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Taten Cortes",
+            "instagram": "teiten"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -551,10 +551,10 @@
     {
         "numero": 62,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Taten Cortes",
+            "instagram": "teiten"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -1091,10 +1091,10 @@
     {
         "numero": 122,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Taten Cortes",
+            "instagram": "teiten"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -1271,10 +1271,10 @@
     {
         "numero": 142,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Taten Cortes",
+            "instagram": "teiten"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
