@@ -1,8 +1,9 @@
 ---
-import { numerosTabla } from "../data/datosRifa.ts";
+import { numerosTabla, premiosMelonie } from "../data/datosRifa.ts";
 
 let contadorOcupados: number = 0;
 let contadorLibres: number = 0;
+let contadorPremios: number = 0;
 
 numerosTabla.forEach((numero) => {
   if (numero.ocupado) {
@@ -11,18 +12,27 @@ numerosTabla.forEach((numero) => {
     contadorLibres+=1
   }
 })
+
+premiosMelonie.forEach((premio) => {
+  contadorPremios += premio.cantidad
+});
 ---
 
-<div class="flex justify-evenly text-xl my-5">
-  <div class="flex items-center border rounded-lg border-emerald-300 p-1 px-3">
-    <span class="h-4 w-4 bg-emerald-300 inline-block"></span>
-    <p class="mx-2">Libres</p>
-    <span>{contadorLibres}</span>
-  </div>
-  <div class="flex items-center border rounded-lg border-red-300 p-1 px-3">
+<div class="flex flex-col w-52 mx-auto sm:flex-row sm:justify-center justify-evenly text-xl my-5">
+  <div class="flex justify-between items-center border rounded-lg border-red-300 p-1 px-3 m-1">
     <span class="h-4 w-4 bg-red-300 inline-block"></span>
     <p class="mx-2">Comprados</p>
     <span>{contadorOcupados}</span>
+  </div>
+  <div class="flex justify-between items-center border rounded-lg border-yellow-300 p-1 px-3 m-1">
+    <span class="h-4 w-4 bg-yellow-300 inline-block"></span>
+    <p class="mx-2">Premios</p>
+    <span>{contadorPremios}</span>
+  </div>
+  <div class="flex justify-between items-center border rounded-lg border-emerald-300 p-1 px-3 m-1">
+    <span class="h-4 w-4 bg-emerald-300 inline-block"></span>
+    <p class="mx-2">Libres</p>
+    <span>{contadorLibres}</span>
   </div>
 </div>
 
