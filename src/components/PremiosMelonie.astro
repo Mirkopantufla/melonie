@@ -8,7 +8,7 @@ import { premiosMelonie } from "../data/datosRifa.ts";
       {
         premiosMelonie.map((premio) => {
           return (
-            <div class="col-span-12 md:col-span-6 lg:col-span-4 2xl:col-span-3 text-center border border-white p-2 m-2 rounded-xl">
+            <div class="col-span-12 md:col-span-6 lg:col-span-4 2xl:col-span-3 text-center border border-white p-2 m-2 rounded-xl shadow-md shadow-white">
               <h2 class="text-black font-bold text-xl bg-white rounded-t-lg">
                 {premio.premio}
                 {premio.cantidad > 1 ? ` * ${premio.cantidad}` : ""}
@@ -18,7 +18,7 @@ import { premiosMelonie } from "../data/datosRifa.ts";
               </p>
               <span class="flex justify-center items-center font-bold text-xl">
                 Gracias {premio.donador}
-                <img class="ms-2 h-7 pt-1" src="/like.png" alt="" />
+                <img class="ms-2 h-7 pt-1" src="/like.png" alt="icono-corazon" />
               </span>
             </div>
           );

@@ -3,15 +3,15 @@
 
 <!-- Accordion Item 1 -->
 <div class="lg:w-5/6 m-auto">
-    <div class="rounded-xl">
+    <div class="rounded-t-2xl border-black border-b-2">
         <button id="accordion-1" class="w-full flex flex-col items-center py-1 bg-white text-black font-bold rounded-t-xl">
           <span class="m-auto text-xl">Que le paso a la wawi?</span>
-          <span id="icon-1" class="h-5 text-slate-800 transition-transform duration-300">
-            <img src="/down-arrow.png" alt="">
+          <span id="icon-1" class="h-4 text-slate-800 transition-transform duration-300">
+            <img class="h-4 animate-bounce pt-1" src="/down-arrow.png" alt="">
           </span>
         </button>
         <div id="content-1" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
-          <div class="lg:w-4/5 m-auto p-5">
+          <div class="lg:w-4/5 m-auto p-8">
             <p class="text-center font-light text-lg">
                 Ella se agarró con un perro de afuera qué entró a la casa y defendiendo su territorio, salió perdiendo, 
                 yo no estaba en ese momento y mi hermano, mi tía y mi prima la llevaron al veterinario, lo malo es que esto fue super tarde y como sabrán, 
@@ -23,8 +23,8 @@
                 </video>
             </div>
             <p class="text-center font-light text-lg">
-                Tuvieron que cocerle en 4 partes, el cuello, sobre la escápula, la patita delantera y el muslo trasero,
-                tubo complicaciones al abrirse unos puntos a las semanas, y volvieron a cocerle la escápula y optaron por cerrar la herida de la pata
+                Tuvieron que cocerle en 4 partes, el cuello, sobre la escápula, la patita delantera y el muslo trasero.
+                Tubo complicaciones al abrirse unos puntos a las semanas, y volvieron a cocerle la escápula y optaron por cerrar la herida de la pata
                 por segunda opción, con cambio de vendajes cada 3 días, ya que le falta un pedacito en su pata D:
             </p>
             <div class="flex flex-col sm:flex-row justify-evenly md:h-56 lg:h-64 my-4 gap-3 lg:gap-0 sm:overflow-hidden">
@@ -45,21 +45,22 @@
       </div>
 </div>
 
+<!-- Accordion Item 2 -->
 <div class="lg:w-5/6 m-auto">
-    <div class="border-b border-slate-200 rounded-xl">
+    <div class="border-b-4 border-white rounded-2xl">
         <button id="accordion-2" class="w-full flex flex-col items-center py-1 bg-white text-black font-bold rounded-b-xl">
           <span class="m-auto text-xl">Datos para transferir!</span>
-          <span id="icon-2" class="h-5 text-slate-800 transition-transform duration-300">
-            <img src="/down-arrow.png" alt="">
+          <span id="icon-2" class="h-4 text-slate-800 transition-transform duration-300">
+            <img class="h-4 animate-bounce pt-1" src="/down-arrow.png" alt="">
           </span>
         </button>
         <div id="content-2" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
           <div class="lg:w-4/5 flex flex-col justify-center items-center m-auto p-5">
-            <p class="text-center font-light text-lg">
+            <p class="text-center font-semibold text-lg">
                 Porfavor avisar por mensaje a mi instagram para poder ver los numeros!
             </p>
             <a href="https://www.instagram.com/mikish17/" class="underline text-blue-400 hover:text-blue-600 text-xl">Link</a>
-            <div class="flex flex-col justify-center my-3">
+            <div class="flex flex-col justify-center my-5">
                 <span><b>Nombre</b>: Mirko Pasten</span>
                 <span><b>Rut</b>: 19.317.442-6</span>
                 <span><b>Email</b>: mikish.ash@gmail.com</span>
@@ -90,12 +91,12 @@
         
       // SVG for Minus icon
       const upArrow = `
-        <img src="/up-arrow.png" alt="">
+        <img class="h-4 animate-bounce pt-1" src="/up-arrow.png" alt="">
       `;
    
       // SVG for Plus icon
       const downArrow = `
-        <img src="/down-arrow.png" alt="">
+        <img class="h-4 animate-bounce pt-1" src="/down-arrow.png" alt="">
       `;
    
       // Toggle the content's max-height for smooth opening and closing

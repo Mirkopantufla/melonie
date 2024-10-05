@@ -605,28 +605,28 @@
     {
         "numero": 68,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Gustavo Perez",
+            "instagram": "sologusss_"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
         "numero": 69,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Gustavo Perez",
+            "instagram": "sologusss_"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
         "numero": 70,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Gustavo Perez",
+            "instagram": "sologusss_"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
