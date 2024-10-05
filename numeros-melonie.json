@@ -245,10 +245,10 @@
     {
         "numero": 28,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Amanda Eng Cancino",
+            "instagram": "aeng_089"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -632,46 +632,46 @@
     {
         "numero": 71,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Mauricio Garrido",
+            "instagram": "mayogarrido"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
         "numero": 72,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Mauricio Garrido",
+            "instagram": "mayogarrido"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
         "numero": 73,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Mauricio Garrido",
+            "instagram": "mayogarrido"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
         "numero": 74,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Mauricio Garrido",
+            "instagram": "mayogarrido"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
         "numero": 75,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Mauricio Garrido",
+            "instagram": "mayogarrido"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -1370,10 +1370,10 @@
     {
         "numero": 153,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Amanda Eng Cancino",
+            "instagram": "aeng_089"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {

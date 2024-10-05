@@ -34,7 +34,7 @@ export const premiosMelonie: Premios[] = [
         premio: "Six pack cervezas",
         cantidad: 1,
         descripcion: "Six pack de cervezas pa' pasar la sed de este pinche calor",
-        donador: "Sujey"
+        donador: "Camila Sujey"
     },{
         premio: "Frazadas de 2 plazas",
         cantidad: 2,
@@ -44,7 +44,7 @@ export const premiosMelonie: Premios[] = [
         premio: "Freestyle lateral o cintillo de trenzas",
         cantidad: 1,
         descripcion: "Las trenzas más sarpadas de lo hermida",
-        donador: "Sujey"
+        donador: "Camila Sujey"
     },{
         premio: "Kuchen familiar de Nuez",
         cantidad: 1,
@@ -64,7 +64,7 @@ export const premiosMelonie: Premios[] = [
         premio: "Bolsa con dulces",
         cantidad: 1,
         descripcion: "Bolsa con variados dulces, aprox 15k en dulces",
-        donador: "Vale"
+        donador: "Valentina Castro"
     },{
         premio: "Sesión de masoterapia",
         cantidad: 1,
@@ -74,7 +74,7 @@ export const premiosMelonie: Premios[] = [
         premio: "Conjunto de Aros y Cadena",
         cantidad: 1,
         descripcion: "Conjunto de aros y cadena de plata",
-        donador: "Macarena"
+        donador: "Maca Paz Thomas"
     },{
         premio: "Docena de donas",
         cantidad: 1,
@@ -84,12 +84,12 @@ export const premiosMelonie: Premios[] = [
         premio: "Juego de dos toallas Doral",
         cantidad: 1,
         descripcion: "Juego de 2 toallas de baño nuevas de color violeta",
-        donador: "Nena Painevilu"
+        donador: "Nena Painevilú"
     },{
         premio: "Set de 6 vasos nuevitos",
         cantidad: 1,
         descripcion: "Pack de 6 vasos krea de los tipicos pal juguito y sus copetes",
-        donador: "Nena Painevilu"
+        donador: "Nena Painevilú"
     }
 ]
 
