@@ -254,10 +254,10 @@
     {
         "numero": 29,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Carolina Ruz",
+            "instagram": "#"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -992,10 +992,10 @@
     {
         "numero": 111,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Carolina Ruz",
+            "instagram": "#"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
