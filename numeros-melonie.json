@@ -290,10 +290,10 @@
     {
         "numero": 33,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Catalina Pastén",
+            "instagram": "catalina_pastenh"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -353,10 +353,10 @@
     {
         "numero": 40,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Jesús Vargas",
+            "instagram": "#"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -416,10 +416,10 @@
     {
         "numero": 47,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Catalina Pastén",
+            "instagram": "catalina_pastenh"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -506,10 +506,10 @@
     {
         "numero": 57,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Jesús Vargas",
+            "instagram": "#"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -560,10 +560,10 @@
     {
         "numero": 63,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Catalina Pastén",
+            "instagram": "catalina_pastenh"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -722,10 +722,10 @@
     {
         "numero": 81,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Jesús Vargas",
+            "instagram": "#"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
