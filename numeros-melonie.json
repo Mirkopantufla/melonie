@@ -272,10 +272,10 @@
     {
         "numero": 31,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Juan Pablo",
+            "instagram": "#"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -794,10 +794,10 @@
     {
         "numero": 89,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Juan Pablo",
+            "instagram": "#"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -1262,10 +1262,10 @@
     {
         "numero": 141,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Juan Pablo",
+            "instagram": "#"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
