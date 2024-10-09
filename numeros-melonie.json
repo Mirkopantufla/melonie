@@ -389,10 +389,10 @@
     {
         "numero": 44,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Carlos Gonzáles",
+            "instagram": "carlos.masoterapeuta"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -749,10 +749,10 @@
     {
         "numero": 84,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Carlos Gonzáles",
+            "instagram": "carlos.masoterapeuta"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -1064,10 +1064,10 @@
     {
         "numero": 119,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Carlos Gonzáles",
+            "instagram": "carlos.masoterapeuta"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -1118,10 +1118,10 @@
     {
         "numero": 125,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Carlos Gonzáles",
+            "instagram": "carlos.masoterapeuta"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -1289,10 +1289,10 @@
     {
         "numero": 144,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Carlos Gonzales",
+            "instagram": "carlos.masoterapeuta"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
