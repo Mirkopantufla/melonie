@@ -1757,10 +1757,10 @@
     {
         "numero": 196,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Emy Gonzales",
+            "instagram": "str4fuga._"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
