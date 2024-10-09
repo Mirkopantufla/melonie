@@ -227,10 +227,10 @@
     {
         "numero": 26,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Emelyn Arce",
+            "instagram": "_himeme"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
