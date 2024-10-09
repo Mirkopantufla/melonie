@@ -28,12 +28,12 @@ export const premiosMelonie: Premios[] = [
     },{
         premio: "2 Vinos",
         cantidad: 3,
-        descripcion: "3 Premios de dos vinos cada uno para quedar eposh",
+        descripcion: "3 Premios de dos vinos cada uno, para acompañar el almuerzo",
         donador: "Tito"
     },{
         premio: "Six pack cervezas",
         cantidad: 1,
-        descripcion: "Six pack de cervezas pa' pasar la sed de este pinche calor",
+        descripcion: "Six pack de cervezas para pasar la sed de este calor",
         donador: "Camila Sujey"
     },{
         premio: "Frazadas de 2 plazas",
@@ -43,7 +43,7 @@ export const premiosMelonie: Premios[] = [
     },{
         premio: "Freestyle lateral o cintillo de trenzas",
         cantidad: 1,
-        descripcion: "Las trenzas más sarpadas de lo hermida",
+        descripcion: "Las trenzas y freestyle más sarpadas de lo hermida",
         donador: "Camila Sujey"
     },{
         premio: "Kuchen familiar de Nuez",
@@ -78,7 +78,7 @@ export const premiosMelonie: Premios[] = [
     },{
         premio: "Docena de donas",
         cantidad: 1,
-        descripcion: "Ricas donas donadas :v",
+        descripcion: "Ricas donas donadas :v para pasar una dulce tarde",
         donador: "Jeanmeyli"
     },{
         premio: "Juego de dos toallas Doral",
