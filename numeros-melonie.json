@@ -1046,10 +1046,10 @@
     {
         "numero": 117,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Fernanda Rojas",
+            "instagram": "neriferni"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
