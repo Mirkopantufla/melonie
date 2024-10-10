@@ -587,10 +587,10 @@
     {
         "numero": 66,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Marcelo Perez",
+            "instagram": "pa.m_perez"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -893,10 +893,10 @@
     {
         "numero": 100,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Marcelo Perez",
+            "instagram": "pa.m_perez"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
