@@ -119,10 +119,10 @@
     {
         "numero": 14,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Claudio Banda",
+            "instagram": "_clau.bf"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -497,10 +497,10 @@
     {
         "numero": 56,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Claudio Banda",
+            "instagram": "_clau.bf"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -1586,10 +1586,10 @@
     {
         "numero": 177,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Claudio Banda",
+            "instagram": "_clau.bf"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
