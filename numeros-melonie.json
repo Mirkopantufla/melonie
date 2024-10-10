@@ -101,10 +101,10 @@
     {
         "numero": 12,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Katherine Jannette",
+            "instagram": "kathy.jnc"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -596,10 +596,10 @@
     {
         "numero": 67,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Katherine Jannette",
+            "instagram": "kathy.jnc"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -1037,10 +1037,10 @@
     {
         "numero": 116,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Katherine Jannette",
+            "instagram": "kathy.jnc"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
