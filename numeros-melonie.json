@@ -875,10 +875,10 @@
     {
         "numero": 98,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Amanda",
+            "instagram": "kaski2001"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
