@@ -173,10 +173,10 @@
     {
         "numero": 20,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Renata Esparza",
+            "instagram": "may_dream18"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -470,10 +470,10 @@
     {
         "numero": 53,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Renata Esparza",
+            "instagram": "may_dream18"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
