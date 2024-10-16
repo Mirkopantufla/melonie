@@ -731,10 +731,10 @@
     {
         "numero": 82,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Natalia Henriquez",
+            "instagram": "nahv1982"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
