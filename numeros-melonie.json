@@ -317,10 +317,10 @@
     {
         "numero": 36,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Cristina Rojo",
+            "instagram": "choco.cristiii"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -695,10 +695,10 @@
     {
         "numero": 78,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Diego Gumera",
+            "instagram": "darnaiip"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -848,10 +848,10 @@
     {
         "numero": 95,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Valentina Reyes",
+            "instagram": "vvale_r.r"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -1073,10 +1073,10 @@
     {
         "numero": 120,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Valentina Reyes",
+            "instagram": "vvale_r.r"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
