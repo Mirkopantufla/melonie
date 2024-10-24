@@ -5,22 +5,29 @@ import PremiosMelonie from '@components/PremiosMelonie.astro'
 import InfoAccordion from "@components/InfoAccordion.astro";
 import { premiosMelonie } from "src/data/datosRifa";
 
+
 let contadorPremios: number = 0;
-let tiempoRestante: string = '';
+let diasRestantes: number = 0;
 
 premiosMelonie.forEach((premio) => {
   contadorPremios += premio.cantidad
 });
 
+const contadorDiasRestantes = () => {
   const fechaActual = new Date();
   fechaActual.toLocaleDateString('es-CL', {timeZone: "America/Santiago"});
-  const fechaSorteo = new Date("2024-11-03T23:59:59");
+  
+  const fechaSorteo = new Date("2024-11-03T12:00:00");
+
   const milisegundosDiferencia =  fechaSorteo.valueOf() - fechaActual.valueOf();
 
   if (milisegundosDiferencia > 0) {
-    const dias = Math.floor(milisegundosDiferencia / (1000 * 60 * 60 * 24));
-    tiempoRestante = `Sorteo en ${dias} días`
+    diasRestantes = Math.floor(milisegundosDiferencia / (1000 * 60 * 60 * 24));
   }
+}
+
+// Inicializar variables de días restantes y color aleatorio
+contadorDiasRestantes()
 ---
 
 <Layout title="Rifa melonie">
@@ -42,7 +49,7 @@ premiosMelonie.forEach((premio) => {
       />
     </div>
     <div class="my-5">
-      <p class="text-center text-2xl">{tiempoRestante}</p>
+      <p class="text-center text-2xl">Sorteo en <span class="color-randomizer text-3xl font-bold p-1 pe-2 text-center transition-colors duration-[200ms]">{diasRestantes}</span> días</p>
       <p class="text-center text-2xl">Valor del número $2.000</p>
     </div>
     <InfoAccordion/>
@@ -69,18 +76,29 @@ premiosMelonie.forEach((premio) => {
   .bg-white-transparent {
     background-color: rgba(255, 255, 255, 0.3);
   }
+
 </style>
 
 <script>
   import { numerosTabla } from "../data/datosRifa";
 
   const numeros = document.querySelectorAll(".bloque-numero");
+  const numerosAColor = document.querySelector('.color-randomizer')
+
+  const colorRandomizer = () => {
+    const randomColorNumber = Math.floor(Math.random() * 359)
+    const randomColor = `hsl(${randomColorNumber},50%,50%)`
+    numerosAColor?.setAttribute('style', `color: ${randomColor}`)
+  }
+
+  setInterval(() => {
+    colorRandomizer()
+  }, 200);
 
   numeros.forEach((numero, index) => {
     if (numerosTabla[index].ocupado) {
-      console.log(numero)
       numero.addEventListener("mouseenter", () => {
-        let textoCuadro = `${numerosTabla[index].comprador.nombre}<br>${numerosTabla[index].comprador.instagram}`;
+        let textoCuadro = `${numerosTabla[index].comprador.nombre}`;
         numero.innerHTML = textoCuadro;
       });
 
@@ -89,4 +107,6 @@ premiosMelonie.forEach((premio) => {
       });
     }
   });
+
+
 </script>

@@ -263,10 +263,10 @@
     {
         "numero": 30,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Antonella Sivilotti <3",
+            "instagram": "antuan._.sp"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
