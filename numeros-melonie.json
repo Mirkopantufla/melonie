@@ -1100,10 +1100,10 @@
     {
         "numero": 123,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Sofía Figari",
+            "instagram": "sofifigari"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -1325,10 +1325,10 @@
     {
         "numero": 148,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Francisca Uribe",
+            "instagram": "fran_up84"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -1505,10 +1505,10 @@
     {
         "numero": 168,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Francisca Uribe",
+            "instagram": "fran_up84"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -1685,10 +1685,10 @@
     {
         "numero": 188,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Francisca Uribe",
+            "instagram": "fran_up84"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
