@@ -218,10 +218,10 @@
     {
         "numero": 25,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Jeanne Dark",
+            "instagram": "yandy_coatts"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -281,10 +281,10 @@
     {
         "numero": 32,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Jeanne Dark",
+            "instagram": "yandy_coatts"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
