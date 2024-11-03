@@ -1,4 +1,4 @@
-[
+o[
     {
         "numero": 1,
         "comprador": {
@@ -479,10 +479,10 @@
     {
         "numero": 54,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Aaron Morales",
+            "instagram": "aa.morales_"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -515,19 +515,19 @@
     {
         "numero": 58,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Aaron Morales",
+            "instagram": "aa.morales_"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
         "numero": 59,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Aaron Morales",
+            "instagram": "aa.morales_"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -542,10 +542,10 @@
     {
         "numero": 61,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Aaron Morales",
+            "instagram": "aa.morales_"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -569,10 +569,10 @@
     {
         "numero": 64,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Aaron Morales",
+            "instagram": "aa.morales_"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
