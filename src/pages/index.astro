@@ -32,7 +32,7 @@ premiosMelonie.forEach((premio) => {
       />
     </div>
     <div class="my-5">
-      <p class="text-center text-2xl">Sorteo en <span class="color-randomizer text-2xl font-bold p-1 text-center transition-colors duration-[200ms]">0</span> días</p>
+      <p class="text-center text-2xl">Sorteo en <span class="color-randomizer text-2xl font-bold p-1 text-center transition-colors duration-[200ms]">0</span> horas</p>
       <p class="text-center text-2xl">Valor del número $2.000</p>
     </div>
     <InfoAccordion/>
@@ -73,10 +73,11 @@ premiosMelonie.forEach((premio) => {
   fechaActual.toLocaleDateString('es-CL', {timeZone: "America/Santiago"});
   const fechaSorteo = new Date("2024-11-03T23:59:59");
   const milisegundosDiferencia =  fechaSorteo.valueOf() - fechaActual.valueOf();
+  const horasRestantes = Math.floor(milisegundosDiferencia / (1000 * 60 * 60)).toString()
   const diasRestantes = Math.floor(milisegundosDiferencia / (1000 * 60 * 60 * 24)).toString()
 
   if (milisegundosDiferencia > 0) {
-    numerosAColor.innerHTML = diasRestantes;
+    numerosAColor.innerHTML = horasRestantes;
   }
   // ---------------------------------------------------------------------
 
