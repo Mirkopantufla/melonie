@@ -1001,10 +1001,10 @@
     {
         "numero": 112,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Monica Painevilú",
+            "instagram": "monica.painevilu"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -1055,10 +1055,10 @@
     {
         "numero": 118,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Monica Painevilú",
+            "instagram": "monica.painevilu"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -1307,19 +1307,19 @@
     {
         "numero": 146,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Gladys Navarrete",
+            "instagram": "navarretegladys"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
         "numero": 147,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Gladys Navarrete",
+            "instagram": "navarretegladys"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -1343,10 +1343,10 @@
     {
         "numero": 150,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Gladys Navarrete",
+            "instagram": "navarretegladys"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -1379,10 +1379,10 @@
     {
         "numero": 154,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Gladys Navarrete",
+            "instagram": "navarretegladys"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -1442,10 +1442,10 @@
     {
         "numero": 161,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Gladys Navarrete",
+            "instagram": "navarretegladys"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -1550,10 +1550,10 @@
     {
         "numero": 173,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Eduardo Gonzales",
+            "instagram": "eduardo.gops"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
