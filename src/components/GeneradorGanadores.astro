@@ -1,0 +1,153 @@
+---
+import { undefined } from "astro:schema";
+---
+
+<div class="w-4/5 mx-auto flex flex-col justify-center items-center pb-6">
+    <div class="flex flex-col border p-3 rounded-xl">
+        <p class="text-lg">Aqui puedes probar el sorteo aleatorio</p>
+        <button
+            id="pruebas"
+            class="py-2 px-4 bg-red-500 border border-black rounded-xl"
+            >PROBAR SORTEO</button
+        >
+    </div>
+    <div id="contenedorListadoGanadores" class="w-full">
+        <div class="flex justify-between">
+            <div
+                id="contenedorNumeros"
+                class="flex flex-col justify-center items-center w-1/3"
+            >
+            </div>
+            <div
+                id="contenedorNombres"
+                class="flex flex-col justify-center items-center w-1/3"
+            >
+            </div>
+            <div
+                id="contenedorPremios"
+                class="flex flex-col justify-center items-center w-1/3"
+            >
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    import { numerosTabla, premiosMelonie } from "src/data/datosRifa";
+    import { type Numeros } from "src/data/datosRifa";
+
+    const contenedorNombres = document.querySelector(
+        "#contenedorNombres",
+    ) as HTMLElement;
+    const contenedorNumeros = document.querySelector(
+        "#contenedorNumeros",
+    ) as HTMLElement;
+    const contenedorPremios = document.querySelector(
+        "#contenedorPremios",
+    ) as HTMLElement;
+
+    const numerosComprados: Numeros[] = [];
+    let cantidadPremios: number = 0;
+    let arrayPremios: any[] = [];
+
+    premiosMelonie.map((premio) => {
+        cantidadPremios += premio.cantidad;
+
+        if (premio.cantidad > 1) {
+            for (let i = 0; i < premio.cantidad; i++) {
+                arrayPremios.push(premio.premio);
+            }
+        } else {
+            arrayPremios.push(premio.premio);
+        }
+    });
+
+    numerosTabla.map((numero) =>
+        numero.ocupado ? numerosComprados.push(numero) : null,
+    );
+
+    const generarGanadores = () => {
+        const listadoGanadores: any = [];
+        const copiaNumerosComprados: Numeros[] = [...numerosComprados];
+        let numeroGanador: number = 0;
+
+        limpiarHTML();
+
+        for (let i = 0; i < cantidadPremios; i++) {
+            // Genero un numero aleatorio entre 0 y la cantidad de numeros comprados (157 aprox)
+            numeroGanador = Math.floor(
+                Math.random() * copiaNumerosComprados.length,
+            );
+
+            // Buscamos el nombre de la persona que gano en esta vuelta, si se encuentra menos de d
+            let auxArray = listadoGanadores.filter(
+                (ganador: Numeros) =>
+                    ganador.comprador.nombre ===
+                    copiaNumerosComprados[numeroGanador].comprador.nombre,
+            );
+
+            // Si gano mas de 2 veces, se salta y se resta uno al contador del for
+            if (auxArray.length < 2) {
+                listadoGanadores.push(copiaNumerosComprados[numeroGanador]);
+                copiaNumerosComprados.splice(numeroGanador, 1);
+            } else {
+                i--;
+            }
+        }
+
+        generadorHTML(listadoGanadores);
+    };
+
+    const limpiarHTML = () => {
+        contenedorNombres.innerHTML = `<span class="font-bold text-2xl">Nombre</span>`;
+        contenedorNumeros.innerHTML = `<span class="font-bold text-2xl">Numero</span>`;
+        contenedorPremios.innerHTML = `<span class="font-bold text-2xl">Premio</span>`;
+    };
+    const generadorHTML = (listado: any) => {
+        listado.map((ganador: Numeros, index: number) => {
+            // Genero el link con el nombre de la persona y que apunte al instagram de esta
+            const linkNombreGanador = document.createElement("a");
+            const textoNombreGanador = document.createTextNode(
+                `${ganador.comprador.nombre}`,
+            );
+            linkNombreGanador.setAttribute(
+                "href",
+                `https://www.instagram.com/${ganador.comprador.instagram}/`,
+            );
+            linkNombreGanador.setAttribute("target", "__blank");
+            linkNombreGanador.classList.add("w-full");
+            linkNombreGanador.classList.add("text-center");
+            linkNombreGanador.classList.add("border-b");
+            linkNombreGanador.classList.add("my-1");
+            linkNombreGanador?.appendChild(textoNombreGanador);
+            contenedorNombres?.appendChild(linkNombreGanador);
+
+            // Genero el parrafo e inserto el numero
+            const parrafoNumeroGanador = document.createElement("p");
+            const textoNumeroGanador = document.createTextNode(
+                `${ganador.numero}`,
+            );
+            parrafoNumeroGanador.classList.add("w-full");
+            parrafoNumeroGanador.classList.add("text-center");
+            parrafoNumeroGanador.classList.add("border-b");
+            parrafoNumeroGanador.classList.add("my-1");
+            parrafoNumeroGanador?.appendChild(textoNumeroGanador);
+            contenedorNumeros?.appendChild(parrafoNumeroGanador);
+
+            // Genero el parrafo e inserto el premio
+            const parrafoPremioGanador = document.createElement("p");
+            const textoPremioGanador = document.createTextNode(
+                `${arrayPremios[index]}`,
+            );
+            parrafoPremioGanador.classList.add("w-full");
+            parrafoPremioGanador.classList.add("text-center");
+            parrafoPremioGanador.classList.add("border-b");
+            parrafoPremioGanador.classList.add("my-1");
+            parrafoPremioGanador?.appendChild(textoPremioGanador);
+            contenedorPremios?.appendChild(parrafoPremioGanador);
+        });
+    };
+
+    const boton = document.querySelector("#pruebas") as HTMLElement;
+    boton?.addEventListener("click", generarGanadores);
+</script>

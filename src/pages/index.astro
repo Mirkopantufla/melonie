@@ -1,16 +1,17 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import TablaNumeros from "@components/TablaNumeros.astro";
-import PremiosMelonie from '@components/PremiosMelonie.astro'
+import PremiosMelonie from "@components/PremiosMelonie.astro";
 import InfoAccordion from "@components/InfoAccordion.astro";
 import { premiosMelonie } from "src/data/datosRifa";
+import GeneradorGanadores from "@components/GeneradorGanadores.astro";
+import ListaGanadores from "@components/ListaGanadores.astro";
 
 let contadorPremios: number = 0;
 
 premiosMelonie.forEach((premio) => {
-  contadorPremios += premio.cantidad
+  contadorPremios += premio.cantidad;
 });
-
 ---
 
 <Layout title="Rifa melonie">
@@ -19,7 +20,9 @@ premiosMelonie.forEach((premio) => {
       Rifa a beneficio de melonie
     </h1>
     <p class="text-center text-2xl">01-10-2024 / 03-11-2024</p>
-    <div class="flex justify-center items-center border rounded-lg border-yellow-300 p-1 px-3 w-44 mx-auto my-5 text-xl">
+    <div
+      class="flex justify-center items-center border rounded-lg border-yellow-300 p-1 px-3 w-44 mx-auto my-5 text-xl"
+    >
       <span class="h-4 w-4 bg-yellow-300 inline-block"></span>
       <span class="mx-2">{contadorPremios}</span>
       <p>Premios</p>
@@ -31,66 +34,74 @@ premiosMelonie.forEach((premio) => {
         alt="mi perrita hermosa con su cono de la verguenza"
       />
     </div>
-    <div class="my-5">
-      <p class="text-center text-2xl">Sorteo en <span class="color-randomizer text-2xl font-bold p-1 text-center transition-colors duration-[200ms]">0</span> horas</p>
-      <p class="text-center text-2xl">Valor del número $2.000</p>
-    </div>
-    <InfoAccordion/>
-    <TablaNumeros/>
-    <PremiosMelonie/>
+    <ListaGanadores />
+    <GeneradorGanadores />
+    <InfoAccordion />
+    <TablaNumeros />
+    <PremiosMelonie />
   </main>
   <footer class="h-32 mb-4">
     <div class="bg-white-transparent rounded-lg w-4/5 p-5 mx-auto">
       <div class="flex flex-col justify-center items-center w-auto">
-        <p class="text-center text-2xl font-semibold">Te amo melonie, y gracias a todos por comprar numeritos</p>
-        <img class="ms-2 pt-1 h-8 aspect-square" src="like.png" alt="icono-corazon">
+        <p class="text-center text-2xl font-semibold">
+          Te amo melonie, y gracias a todos por comprar numeritos
+        </p>
+        <img
+          class="ms-2 pt-1 h-8 aspect-square"
+          src="like.png"
+          alt="icono-corazon"
+        />
       </div>
       <p class="text-center w-auto m-auto">by RubikApps / Mirko Pasten</p>
     </div>
-      
   </footer>
 </Layout>
 
 <style>
-  main, footer {
+  main,
+  footer {
     color: white;
   }
 
   .bg-white-transparent {
     background-color: rgba(255, 255, 255, 0.3);
   }
-
 </style>
 
 <script>
   import { numerosTabla } from "../data/datosRifa";
 
   const numeros = document.querySelectorAll(".bloque-numero");
-  const numerosAColor = document.querySelector('.color-randomizer') as HTMLElement
+  const numerosAColor = document.querySelector(
+    ".color-randomizer",
+  ) as HTMLElement;
 
   // -- Calculo los milisegundos restantes para ver los días restantes --
   const fechaActual = new Date();
-  fechaActual.toLocaleDateString('es-CL', {timeZone: "America/Santiago"});
+  fechaActual.toLocaleDateString("es-CL", { timeZone: "America/Santiago" });
   const fechaSorteo = new Date("2024-11-03T23:59:59");
-  const milisegundosDiferencia =  fechaSorteo.valueOf() - fechaActual.valueOf();
-  const horasRestantes = Math.floor(milisegundosDiferencia / (1000 * 60 * 60)).toString()
-  const diasRestantes = Math.floor(milisegundosDiferencia / (1000 * 60 * 60 * 24)).toString()
+  const milisegundosDiferencia = fechaSorteo.valueOf() - fechaActual.valueOf();
+  const horasRestantes = Math.floor(
+    milisegundosDiferencia / (1000 * 60 * 60),
+  ).toString();
+  const diasRestantes = Math.floor(
+    milisegundosDiferencia / (1000 * 60 * 60 * 24),
+  ).toString();
 
   if (milisegundosDiferencia > 0) {
     numerosAColor.innerHTML = horasRestantes;
   }
   // ---------------------------------------------------------------------
 
-  
   // Creo colores aleatorios para los días restantes
   const colorRandomizer = () => {
-    const randomColorNumber = Math.floor(Math.random() * 359)
-    const randomColor = `hsl(${randomColorNumber},50%,50%)`
-    numerosAColor?.setAttribute('style', `color: ${randomColor}`)
-  }
+    const randomColorNumber = Math.floor(Math.random() * 359);
+    const randomColor = `hsl(${randomColorNumber},50%,50%)`;
+    numerosAColor?.setAttribute("style", `color: ${randomColor}`);
+  };
 
   setInterval(() => {
-    colorRandomizer()
+    colorRandomizer();
   }, 200);
 
   numeros.forEach((numero, index) => {
@@ -105,6 +116,4 @@ premiosMelonie.forEach((premio) => {
       });
     }
   });
-
-
 </script>

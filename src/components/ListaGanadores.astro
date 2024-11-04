@@ -1,0 +1,42 @@
+---
+import { ganadoresRifa } from "src/data/datosRifa";
+---
+
+<div class="w-4/5 mx-auto py-4">
+    <h1
+        id="tituloGanadores"
+        class="text-5xl font-bold text-center color-randomizer"
+    >
+        GANADORES
+    </h1>
+    <div class="border rounded-2xl my-2">
+        <div
+            class="flex justify-between items-center border-b py-1 bg-slate-500"
+        >
+            <span class="w-1/3 text-center text-2xl font-bold"> Numero</span>
+            <a class="w-1/3 text-center text-2xl font-bold border-x"> Nombre</a>
+            <span class="w-1/3 text-center text-2xl font-bold"> Premio </span>
+        </div>
+        {
+            ganadoresRifa.map((ganador) => {
+                return (
+                    <div class="flex justify-between items-center border-b py-1">
+                        <span class="w-1/3 text-center text-2xl">
+                            {ganador.numero}
+                        </span>
+                        <a
+                            href={`https://www.instagram.com/${ganador.comprador.instagram}/`}
+                            target="_blank"
+                            class="w-1/3 text-center text-xl border-x hover:scale-105"
+                        >
+                            {ganador.comprador.nombre}
+                        </a>
+                        <span class="w-1/3 text-center text-xl">
+                            {ganador.premio}
+                        </span>
+                    </div>
+                );
+            })
+        }
+    </div>
+</div>

@@ -1,52 +1,70 @@
 ---
-import { numerosTabla } from "src/data/datosRifa";
+import { numerosTabla, premiosMelonie } from "src/data/datosRifa";
 
 let contadorOcupados: number = 0;
 let contadorLibres: number = 0;
+let contadorPremios: number = 0;
+
+premiosMelonie.forEach((premio) => {
+  contadorPremios += premio.cantidad;
+});
 
 numerosTabla.forEach((numero) => {
   if (numero.ocupado) {
-    contadorOcupados+=1
-  }else{
-    contadorLibres+=1
+    contadorOcupados += 1;
+  } else {
+    contadorLibres += 1;
   }
-})
+});
 ---
 
-<div class="flex flex-col w-52 mx-auto sm:flex-row sm:justify-center text-xl my-5">
-  <div class="flex justify-between items-center border rounded-lg border-red-300 p-1 px-3 m-1">
+<div
+  class="flex flex-col w-52 mx-auto sm:flex-row sm:justify-center text-xl my-5"
+>
+  <div
+    class="flex justify-between items-center border rounded-lg border-red-300 p-1 px-3 m-1"
+  >
     <span class="h-4 w-4 bg-red-300 inline-block"></span>
     <p class="mx-2">Comprados</p>
     <span>{contadorOcupados}</span>
   </div>
-  <div class="flex justify-between items-center border rounded-lg border-emerald-300 p-1 px-3 m-1">
+  <div
+    class="flex justify-between items-center border rounded-lg border-emerald-300 p-1 px-3 m-1"
+  >
     <span class="h-4 w-4 bg-emerald-300 inline-block"></span>
     <p class="mx-2">Libres</p>
     <span>{contadorLibres}</span>
   </div>
+  <div
+    class="flex justify-between items-center border rounded-lg border-yellow-300 p-1 px-3 m-1"
+  >
+    <span class="h-4 w-4 bg-yellow-300 inline-block"></span>
+    <p class="mx-2">Ganadores</p>
+    <span>{contadorPremios}</span>
+  </div>
 </div>
 
 <div class="lg:w-5/6 grid grid-cols-10 grid-rows-auto gap-1 m-auto px-5">
-    {
-      numerosTabla.map((numero) => {
-        return (
-          <a
-            href={
-              numero.comprador.instagram != ""
-                ? `https://www.instagram.com/${numero.comprador.instagram}/`
-                : "#"
-            }
-            class="col-span-2 md:col-span-2 lg:col-span-1"
-            target={`${numero.comprador.instagram != "" ? "_blank" : ""}`}
+  {
+    numerosTabla.map((numero) => {
+      return (
+        <a
+          href={
+            numero.comprador.instagram != ""
+              ? `https://www.instagram.com/${numero.comprador.instagram}/`
+              : "#"
+          }
+          class="col-span-2 md:col-span-2 lg:col-span-1"
+          target={`${numero.comprador.instagram != "" ? "_blank" : ""}`}
+        >
+          <span
+            id={`numero-${numero.numero}`}
+            class={`bloque-numero h-20 border border-black flex justify-center items-center text-center font-bold text-black rounded-xl text-2xl ${numero.ocupado ? "bg-red-300 hover:text-sm lg:hover:text-xs" : "bg-emerald-300"} ${numero.ocupado && numero.ganador ? "bg-yellow-300 hover:text-sm lg:hover:text-xs" : null}`}
           >
-            <span
-              id={`numero-${numero.numero}`}
-              class={`bloque-numero h-20 border border-black flex justify-center items-center text-center font-bold text-black rounded-xl text-2xl ${numero.ocupado ? "bg-red-300 hover:text-sm lg:hover:text-xs" : "bg-emerald-300"}`}
-            >
-              {numero.numero}
-            </span>
-          </a>
-        );
-      })
-    }
-  </div>
+            {numero.numero}
+          </span>
+        </a>
+      );
+    })
+  }
+</div>
