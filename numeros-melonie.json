@@ -344,10 +344,10 @@
     {
         "numero": 39,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Leon Pasten",
+            "instagram": "yerkop22"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -677,10 +677,10 @@
     {
         "numero": 76,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Agustina Pasten",
+            "instagram": "yerkop22"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -1145,10 +1145,10 @@
     {
         "numero": 128,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Kira Pasten",
+            "instagram": "yerkop22"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -1334,10 +1334,10 @@
     {
         "numero": 149,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Yerko Pasten",
+            "instagram": "yerkop22"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
@@ -1730,10 +1730,10 @@
     {
         "numero": 193,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Carla Gutierrez",
+            "instagram": "carlitayoya"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
