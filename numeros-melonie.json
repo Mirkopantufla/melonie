@@ -1388,10 +1388,10 @@
     {
         "numero": 155,
         "comprador": {
-            "nombre": "",
-            "instagram": ""
+            "nombre": "Catalina Nuñez",
+            "instagram": "cattiushka"
         },
-        "ocupado": false,
+        "ocupado": true,
         "ganador": false
     },
     {
