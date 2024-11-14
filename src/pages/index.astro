@@ -107,12 +107,12 @@ premiosMelonie.forEach((premio) => {
   numeros.forEach((numero, index) => {
     if (numerosTabla[index].ocupado) {
       numero.addEventListener("mouseenter", () => {
-        let textoCuadro = `${numerosTabla[index].comprador.nombre}`;
-        numero.innerHTML = textoCuadro;
+        numero.innerHTML = numerosTabla[index].numero.toString();
       });
 
       numero.addEventListener("mouseout", () => {
-        numero.innerHTML = numerosTabla[index].numero.toString();
+        let textoCuadro = `${numerosTabla[index].comprador.nombre}`;
+        numero.innerHTML = textoCuadro;
       });
     }
   });

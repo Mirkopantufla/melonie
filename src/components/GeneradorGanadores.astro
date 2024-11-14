@@ -11,24 +11,10 @@
             >PROBAR SORTEO</button
         >
     </div>
-    <div id="contenedorListadoGanadores" class="w-full">
-        <div class="flex justify-between">
-            <div
-                id="contenedorNumeros"
-                class="flex flex-col justify-center items-center w-1/3"
-            >
-            </div>
-            <div
-                id="contenedorNombres"
-                class="flex flex-col justify-center items-center w-1/3"
-            >
-            </div>
-            <div
-                id="contenedorPremios"
-                class="flex flex-col justify-center items-center w-1/3"
-            >
-            </div>
-        </div>
+    <div
+        id="contenedorListadoGanadores"
+        class="w-full flex flex-col justify-between rounded-xl my-2 overflow-hidden"
+    >
     </div>
 </div>
 
@@ -36,14 +22,8 @@
     import { numerosTabla, premiosMelonie } from "src/data/datosRifa";
     import { type Numeros } from "src/data/datosRifa";
 
-    const contenedorNombres = document.querySelector(
-        "#contenedorNombres",
-    ) as HTMLElement;
-    const contenedorNumeros = document.querySelector(
-        "#contenedorNumeros",
-    ) as HTMLElement;
-    const contenedorPremios = document.querySelector(
-        "#contenedorPremios",
+    const contenedorListadoGanadores = document.querySelector(
+        "#contenedorListadoGanadores",
     ) as HTMLElement;
 
     const numerosComprados: Numeros[] = [];
@@ -99,52 +79,69 @@
     };
 
     const limpiarHTML = () => {
-        contenedorNombres.innerHTML = `<span class="font-bold text-2xl">Nombre</span>`;
-        contenedorNumeros.innerHTML = `<span class="font-bold text-2xl">Numero</span>`;
-        contenedorPremios.innerHTML = `<span class="font-bold text-2xl">Premio</span>`;
+        while (contenedorListadoGanadores.firstChild) {
+            contenedorListadoGanadores.removeChild(
+                contenedorListadoGanadores.firstChild,
+            );
+        }
     };
+
     const generadorHTML = (listado: any) => {
+        const contenedorTitulos = document.createElement("div");
+        contenedorTitulos.setAttribute(
+            "class",
+            "flex justify-between items-center border-b bg-slate-500",
+        );
+        contenedorTitulos.innerHTML = `
+            <span class="w-1/3 text-center text-2xl font-bold py-1"> Numero</span>
+            <a class="w-1/3 text-center text-2xl font-bold border-x py-1"> Nombre</a>
+            <span class="w-1/3 text-center text-2xl font-bold py-1"> Premio </span>`;
+
+        contenedorListadoGanadores.append(contenedorTitulos);
+        contenedorListadoGanadores.classList.add("border");
+
         listado.map((ganador: Numeros, index: number) => {
-            // Genero el link con el nombre de la persona y que apunte al instagram de esta
+            // Genero la fila que insertare en el contenedor
+            const contenedorFila = document.createElement("div");
+            contenedorFila.setAttribute("class", "flex w-full border-b");
+
+            // Genero los elementos que insertare en la fila
+            const parrafoNumeroGanador = document.createElement("span");
             const linkNombreGanador = document.createElement("a");
-            const textoNombreGanador = document.createTextNode(
-                `${ganador.comprador.nombre}`,
+            const parrafoPremioGanador = document.createElement("span");
+
+            // Genero el numero y lo inserto
+            parrafoNumeroGanador.setAttribute(
+                "class",
+                "flex items-center justify-center p-1 w-1/3",
+            );
+            parrafoNumeroGanador.innerHTML = `${ganador.numero}`;
+            contenedorFila?.appendChild(parrafoNumeroGanador);
+
+            // ------------------------------------------------------------------------
+            linkNombreGanador.setAttribute(
+                "class",
+                "flex items-center justify-center border-x p-1 w-1/3 hover:scale-95",
             );
             linkNombreGanador.setAttribute(
                 "href",
                 `https://www.instagram.com/${ganador.comprador.instagram}/`,
             );
             linkNombreGanador.setAttribute("target", "__blank");
-            linkNombreGanador.classList.add("w-full");
-            linkNombreGanador.classList.add("text-center");
-            linkNombreGanador.classList.add("border-b");
-            linkNombreGanador.classList.add("my-1");
-            linkNombreGanador?.appendChild(textoNombreGanador);
-            contenedorNombres?.appendChild(linkNombreGanador);
 
-            // Genero el parrafo e inserto el numero
-            const parrafoNumeroGanador = document.createElement("p");
-            const textoNumeroGanador = document.createTextNode(
-                `${ganador.numero}`,
-            );
-            parrafoNumeroGanador.classList.add("w-full");
-            parrafoNumeroGanador.classList.add("text-center");
-            parrafoNumeroGanador.classList.add("border-b");
-            parrafoNumeroGanador.classList.add("my-1");
-            parrafoNumeroGanador?.appendChild(textoNumeroGanador);
-            contenedorNumeros?.appendChild(parrafoNumeroGanador);
+            linkNombreGanador.innerHTML = `${ganador.comprador.nombre}`;
+            contenedorFila?.appendChild(linkNombreGanador);
 
+            // ------------------------------------------------------------------------
             // Genero el parrafo e inserto el premio
-            const parrafoPremioGanador = document.createElement("p");
-            const textoPremioGanador = document.createTextNode(
-                `${arrayPremios[index]}`,
+            parrafoPremioGanador.setAttribute(
+                "class",
+                "flex items-center justify-center text-center p-1 w-1/3",
             );
-            parrafoPremioGanador.classList.add("w-full");
-            parrafoPremioGanador.classList.add("text-center");
-            parrafoPremioGanador.classList.add("border-b");
-            parrafoPremioGanador.classList.add("my-1");
-            parrafoPremioGanador?.appendChild(textoPremioGanador);
-            contenedorPremios?.appendChild(parrafoPremioGanador);
+            parrafoPremioGanador.innerHTML = `${arrayPremios[index]}`;
+            contenedorFila?.appendChild(parrafoPremioGanador);
+
+            contenedorListadoGanadores.appendChild(contenedorFila);
         });
     };
 
